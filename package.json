@@ -1,0 +1,28 @@
+{
+  "name": "discord-migration-tool",
+  "version": "1.21.0",
+  "private": true,
+  "description": "Local Discord media archiving, failed-download repair and official bot import CLI",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test",
+    "check": "node --check index.js"
+  },
+  "engines": {
+    "node": ">=20.12.0"
+  },
+  "dependencies": {
+    "playwright-core": "1.64.1"
+  },
+  "license": "UNLICENSED",
+  "files": [
+    "index.js",
+    "src/",
+    "config.example.json",
+    ".env.example",
+    "README.md",
+    "CHANGELOG.md",
+    "SECURITY.md",
+    "docs/"
+  ]
+}

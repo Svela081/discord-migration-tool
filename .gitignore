@@ -1,0 +1,41 @@
+node_modules/
+.DS_Store
+*.log
+.env
+.env.*
+!.env.example
+config.json
+*.token
+*.secret
+*.zip
+# Local archives, credentials, session profiles or API reports are never source code
+Discord Migration Tool/
+archives/
+downloads/
+.migration-maps/
+.archive-reports/
+.bot-migration-journals/
+source_archive_index.json
+legacy_loose_folders_report.json
+upload_manifest*.jsonl
+upload_report*.json
+*.pending.json
+.creation-diagnostic.json
+*.part-*
+playwright-report/
+test-results/
+# Archive metadata is private regardless of its parent folder name.
+**/Images/
+**/Videos/
+**/download_manifest.jsonl
+**/errors.jsonl
+**/embeds.jsonl
+**/embeds.txt
+**/scan_report.json
+**/retry_scan_report.json
+**/.source_channel.json
+**/*.oversized-pending-*.json
+**/.discord-migration*-browser/
+**/SingletonCookie
+**/SingletonLock
+**/SingletonSocket
